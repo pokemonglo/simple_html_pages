@@ -2,7 +2,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
-                             
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
@@ -14,9 +14,11 @@
     <description>A simple project for HTML pages (no Java code)</description>
 
     <build>
+        <finalName>violetApple-docker</finalName> <!-- 👈 This is what you need -->
         <plugins>
             <!-- Add plugins here if needed -->
         </plugins>
     </build>
 
 </project>
+
